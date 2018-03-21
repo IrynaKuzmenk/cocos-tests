@@ -39,6 +39,8 @@ Check the Newsletter email field with invalid data
 Checking Search icon on the main page
        Click Element  ${CLOSE}
        Sleep  2
+       Click Element  ${CLOSE}
+       Page Should Contain Element  ${SEARCH}
        Page Should Contain Element  ${SEARCH}
        Click Element  ${SEARCH}
        Sleep  2
